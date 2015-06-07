@@ -1,12 +1,12 @@
 #! /system/bin/sh
 #
-# Warning: if you want to run this script in cm-recovery change the above to #!/sbin/sh
+# Warning: if you want to run this script in aosp-recovery change the above to #!/sbin/sh
 #
 # fix_permissions - fixes permissions on Android data directories after upgrade
 # shade@chemlab.org
 #
 # original concept: http://blog.elsdoerfer.name/2009/05/25/android-fix-package-uid-mismatches/
-# implementation by: Cyanogen
+# implementation by: AOSP
 # improved by: ankn, smeat, thenefield, farmatito, rikupw, Kastro
 #
 # v1.1-v1.31r3 - many improvements and concepts from XDA developers.

@@ -1,4 +1,4 @@
 #
-#CM-specific variable clears
+#AOSP-specific variable clears
 #
 LOCAL_IGNORE_SUBDIR :=

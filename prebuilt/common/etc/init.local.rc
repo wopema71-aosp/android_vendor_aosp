@@ -1,4 +1,4 @@
-# CyanogenMod Extras
+# AOSP Extras
 import /init.superuser.rc
 import /init.prebundle.rc
 

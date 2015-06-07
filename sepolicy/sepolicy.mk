@@ -1,10 +1,10 @@
 #
 # This policy configuration will be used by all products that
-# inherit from CM
+# inherit from AOSP
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/cm/sepolicy
+    vendor/aosp/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file.te \
@@ -35,5 +35,4 @@ BOARD_SEPOLICY_UNION += \
     uncrypt.te \
     userinit.te \
     vold.te \
-    zygote.te \
     mac_permissions.xml

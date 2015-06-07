@@ -1,10 +1,10 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
+# Inherit common AOSP stuff
+$(call inherit-product, vendor/aosp/config/common.mk)
 
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+# Include AOSP audio files
+include vendor/aosp/config/aosp_audio.mk
 
-# Optional CM packages
+# Optional AOSP packages
 PRODUCT_PACKAGES += \
     Galaxy4 \
     HoloSpiralWallpaper \
@@ -18,7 +18,7 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     PhotoPhase
 
-# Extra tools in CM
+# Extra tools in AOSP
 PRODUCT_PACKAGES += \
     vim \
     zip \

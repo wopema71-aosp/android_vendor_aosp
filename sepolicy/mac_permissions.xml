@@ -15,10 +15,10 @@
     <seinfo value="release" />
   </signer>
 
-  <!-- CMUpdater -->
+  <!-- AOSPUpdater -->
   <signer signature="@RELEASE" >
-    <package name="com.cyanogenmod.updater" >
-      <seinfo value="cmupdater" />
+    <package name="com.aosp.updater" >
+      <seinfo value="aospupdater" />
     </package>
   </signer>
 </policy>

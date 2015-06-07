@@ -1,12 +1,12 @@
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common_full.mk)
+# Inherit common AOSP stuff
+$(call inherit-product, vendor/aosp/config/common_full.mk)
 
-# Required CM packages
+# Required AOSP packages
 PRODUCT_PACKAGES += \
     LatinIME
 
-# Include CM LatinIME dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
+# Include AOSP LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/dictionaries
 
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -15,7 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ifeq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
     PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
+        vendor/aosp/prebuilt/common/bootanimation/1080.zip:system/media/bootanimation.zip
 endif
 
-$(call inherit-product, vendor/cm/config/telephony.mk)
+$(call inherit-product, vendor/aosp/config/telephony.mk)
