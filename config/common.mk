@@ -133,11 +133,11 @@ PRODUCT_PACKAGES += \
 # Custom AOSP packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Terminal \
     AudioFX \
     Eleven \
     LockClock \
-    AOSPUpdater
+    AOSPUpdater \
+    PerformanceControl
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
@@ -206,7 +206,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
 
-PRODUCT_VERSION_MAJOR = LOLLIPOP
+PRODUCT_VERSION_MAJOR = lollipop
 PRODUCT_VERSION_MINOR = 5.1.1_R4
 PRODUCT_VERSION_MAINTENANCE = 0-RC0
 
