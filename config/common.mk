@@ -139,14 +139,6 @@ PRODUCT_PACKAGES += \
     AOSPUpdater \
     PerformanceControl
 
-# Custom AOSP packages
-PRODUCT_PACKAGES += \
-    SimpleExplorer
-
-# Custom AOSP packages
-PRODUCT_PACKAGES += \
-    KernelTuner
-
 # CM Platform Library
 PRODUCT_PACKAGES += \
     org.cyanogenmod.platform-res \
