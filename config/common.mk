@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     AOSPUpdater \
-    PerformanceControl
+    PerformanceControl \
+    FileManager
 
 # Amaze Explorer
 PRODUCT_COPY_FILES += \
