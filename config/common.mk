@@ -140,10 +140,6 @@ PRODUCT_PACKAGES += \
     PerformanceControl \
     FileManager
 
-# Amaze Explorer
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/apps/com.amaze.filemanager.apk:system/app/AmazeFileManager/AmazeFileManager.apk
-
 # Kernel Adiutor
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/apps/com.grarak.kerneladiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
