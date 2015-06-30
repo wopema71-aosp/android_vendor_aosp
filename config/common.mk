@@ -138,7 +138,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     AOSPUpdater \
     PerformanceControl \
-    FileManager
+    FileManager \
+    Music
 
 # Kernel Adiutor
 PRODUCT_COPY_FILES += \
